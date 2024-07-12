@@ -3,9 +3,9 @@ const path = require('path');
 
 
 module.exports = {
-  entry:"./src/test.tsx",
+  entry:"./index.tsx",
   output:{
-    filename: "test.bundle.js",
+    filename: "index.bundle.js",
     path : path.resolve(__dirname, "dist")
   },
   module:{
