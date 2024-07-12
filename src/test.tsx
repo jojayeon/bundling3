@@ -3,21 +3,14 @@ import ReactDOM from "react-dom/client";
 import A from "./title"
 import title123 from "../static/testtitle"
 
-
+import style1 from "./teststyle"
 
 
 const Test:React.FC = () => {
-  const Style1: React.CSSProperties = {
-    width : "100px",
-    height : "100px",
-    backgroundColor: "black",
-    margin : "10%",
-    color : "#fff",
-  }
   return (
     <div>
       <A divtext= {title123}/>
-      <div style={Style1}> title2</div>
+      <div style={style1}> title2</div>
       <div>
         <div>text</div>
         <ul>
