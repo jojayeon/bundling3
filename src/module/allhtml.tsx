@@ -8,19 +8,19 @@ import Divhtml from "./div";
 const ALLhtml:React.FC = () =>{
   return(
     <div>
-      <div>maintitle1</div>
-      <div>text1</div>
+      <Divhtml anytext = "aa"/>
+      <Divhtml anytext = "aa"/>
       <div>
-        <div>subtitle1</div>
+        <Divhtml anytext = "aa"/>
         <ul>
           <li>litext1-1</li>
           <li>litext1-2</li>
         </ul>
       </div>
-      <div>maintitle2</div>
-      <div>text2</div>
+      <Divhtml anytext = "aa"/>
+      <Divhtml anytext = "aa"/>
       <div>
-        <div>subtitle2</div>
+        <Divhtml anytext = "aa"/>
         <ul>
           <li>litext2-1</li>
           <li>litext2-2</li>
