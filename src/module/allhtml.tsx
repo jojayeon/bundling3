@@ -3,6 +3,7 @@
 // 첫 시작
 
 import React from "react"
+import Divhtml from "./div";
 
 const ALLhtml:React.FC = () =>{
   return(
@@ -28,3 +29,5 @@ const ALLhtml:React.FC = () =>{
     </div>
   )
 };
+
+export default ALLhtml;
