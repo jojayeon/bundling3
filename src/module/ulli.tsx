@@ -3,7 +3,7 @@
 import React from "react"
 
 interface ulli {
-  litext: string;
+  litext: string[];
 }
 
 const Ulli:React.FC<ulli> = ({litext}) =>{
