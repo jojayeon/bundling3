@@ -6,10 +6,10 @@ interface Div {
   anytext:string
 }
 
-const Allhtml:React.FC<Div> = ({anytext}) =>{
+const Divhtml:React.FC<Div> = ({anytext}) =>{
   return(
     <div>{anytext}</div>
   )
 };
 
-export default Allhtml
+export default Divhtml
